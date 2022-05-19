@@ -1,0 +1,64 @@
+header {
+	background-color: rgb(61, 60, 60);
+	color: rgb(255, 255, 255);
+	min-height: 140px;
+	div {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 10px;
+		h1 {
+			padding-left: 10px;
+			animation: h1animation;
+			animation-timing-function: ease;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+		}
+	}
+	img {
+		width: 80px;
+		height: 80px;
+		border-radius: 20px;
+		animation: infinite-rotate;
+		animation-timing-function: ease;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+	}
+}
+.nav-menu {
+	ul {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		align-items: center;
+		list-style-type: none;
+		padding: 5px;
+		animation: colorchange;
+		animation-timing-function: ease;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+		li {
+			a {
+				text-decoration: none;
+				color: rgb(255, 255, 255);
+				font-size: 20px;
+				&:visited {
+					text-decoration: none;
+				}
+			}
+			&:hover {
+				background-color: rgb(255, 255, 255);
+				color: black;
+				border-radius: 20px;
+				border: 2px solid rgb(0, 0, 0);
+				padding: 2px;
+				transition-duration: 1s;
+			}
+			span {
+				&:hover {
+					color: rgb(0, 0, 0);
+				}
+			}
+		}
+	}
+}

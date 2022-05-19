@@ -1,0 +1,190 @@
+@import "header-nav";
+@import "main-sect-artc";
+@import "aside-footer-contact";
+@import "products-tabla";
+
+    @keyframes h1animation {
+	0% {
+		transform: skew(10deg);
+	}
+	50% {
+		transform: skew(-10deg);
+		color: rgb(182, 240, 216);
+	}
+	100% {
+		transform: skew(10deg);
+	}
+}
+@keyframes infinite-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes colorchange {
+	to {
+		background-color: rgba(19, 16, 58, 0.534);
+	}
+	from {
+		background-color: rgb(61, 60, 60);
+	}
+}
+@keyframes run-infinite {
+	0% {
+		transform: translateX(-1000px) scale(0.7);
+		opacity: 0;
+	}
+	1% {
+		opacity: 1;
+	}
+	50% {
+		transform: translateX(0) scale(0.7);
+	}
+	65% {
+		transform: scale(2);
+	}
+}
+@keyframes wobble {
+	0% {
+		transform: translateX(0%);
+	}
+	15% {
+		transform: translateX(-25%) rotate(-5deg);
+	}
+	30% {
+		transform: translateX(20%) rotate(3deg);
+	}
+	45% {
+		transform: translateX(-15%) rotate(-3deg);
+	}
+	60% {
+		transform: translateX(10%) rotate(2deg);
+	}
+	75% {
+		transform: translateX(-5%) rotate(-1deg);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Radio Canada';
+	background-color: rgb(218, 218, 218);
+}
+
+
+
+.sect-product {
+	margin: 20px;
+	div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		h4 {
+			font-size: 30px;
+			margin: 20px;
+			animation: run-infinite;
+			animation-timing-function: ease;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+		}
+		div {
+			p {
+				margin: 5px;
+				padding: 0px;
+				font-size: 20px;
+			}
+		}
+	}
+}
+.main-help {
+	margin: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	section {
+		h2 {
+			text-align: center;
+			font-size: 50px;
+		}
+		p {
+			text-align: center;
+			font-size: 20px;
+		}
+	}
+}
+.sector-help {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	h3 {
+		padding: 20px;
+		font-size: 40px;
+		animation: wobble;
+		animation-timing-function: ease;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+	p {
+		padding: 60px;
+		font-size: 20px;
+		a {
+			text-decoration: none;
+			color: black;
+			border: 1px dashed red;
+			&:hover {
+				background-color: rgb(195, 195, 230);
+			}
+		}
+	}
+}
+@media (max-width:700px) {
+	header {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		div {
+			h1 {
+				padding-top: 5px;
+				font-size: 20px;
+			}
+		}
+	}
+	.nav-menu {
+		ul {
+			li {
+				a {
+					font-size: 12px;
+					padding: 2px;
+				}
+			}
+		}
+	}
+	footer {
+		div {
+			nav {
+				ul {
+					justify-content: space-around;
+					font-size: 12px;
+					li {
+						a {
+							justify-content: center;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+//Maps
+
+$archivos:(
+    titulo: rgb(253, 249, 9),
+    parraf: rgb(81, 82, 80),
+    rellen: rgb(10, 10, 10),
+    mas-rellen: rgb(153, 6, 6),
+);
+@each $raro, $element in $archivos{
+    .raro-#{$raro}{
+        color: $element;
+    }
+    
+};
+
+//Extend
+
+.raro-titulo{
+    @extend .primer-titulo;
+    text-align: center;
+}
+.raro-parraf{
+    @extend .sect-text;
+}
+.raro-rellen{
+    @extend .sector-help-p;
+    text-align: center;
+}
+.raro-mas-rellen{
+    @extend .sect-t
+};
+
+// Mixis
+@mixin size ($alto, $ancho, $espaciado){
+    height: $alto;
+    width: $ancho;
+    margin: $espaciado;
+}
+
+.first-var{
+    @include size(300px, 800px, 10px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

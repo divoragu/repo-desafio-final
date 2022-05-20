@@ -106,7 +106,7 @@ header {
     font-size: 40px;
     margin: 10px; }
 
-.sect-text {
+.sect-text, .raro-parraf {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +147,11 @@ header {
     min-width: 250px;
     min-height: 150px; }
 
-.sect-t {
+.first-var {
+  background-color: #b6f0d8;
+  border: 4px solid black; }
+
+.sect-t, .raro-mas-rellen {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,10 +173,6 @@ header {
       animation-timing-function: ease;
       animation-duration: 4s;
       animation-iteration-count: infinite; }
-    .sect-product div div p {
-      margin: 5px;
-      padding: 0px;
-      font-size: 20px; }
 
 .artic {
   grid-area: article;
@@ -192,10 +192,6 @@ header {
     justify-content: start;
     align-items: center;
     font-size: 27px; }
-    .artic div h2 {
-      font-size: 40px;
-      display: flex;
-      margin: 20px; }
   .artic img {
     display: flex;
     justify-content: end;
@@ -205,6 +201,16 @@ header {
     margin: 5px;
     border-radius: 20px;
     border: 2px solid lightblue; }
+
+.primer-titulo, .raro-titulo {
+  font-size: 40px;
+  display: flex;
+  margin: 20px; }
+
+.sector-help-p, .raro-rellen {
+  margin: 5px;
+  padding: 0px;
+  font-size: 20px; }
 
 .asi {
   grid-area: aside;
@@ -498,6 +504,33 @@ tr {
 
 td {
   border: 1px solid black;
+  text-align: center; }
+
+.raro-titulo {
+  color: #fdf909; }
+
+.raro-parraf {
+  color: #515250; }
+
+.raro-rellen {
+  color: #0a0a0a; }
+
+.raro-mas-rellen {
+  color: #990606; }
+
+.raro-titulo {
+  text-align: center; }
+
+.raro-rellen {
+  text-align: center; }
+
+.first-var {
+  height: 300px;
+  width: 800px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center; }
 
 @keyframes h1animation {

@@ -1,12 +1,29 @@
 // Colors
+$hefo-color:  rgb(61, 60, 60);
 $back-color: rgb(182,172,210);
 $text-color: rgb(0, 0, 0);
 $color-hover: rgb(226, 231, 147);
-
+$back-color1:rgb(182, 240, 216);
 //border
 $bordesito2: 2px solid rgba(0, 0, 0, 0.459);
 $bordesito1: 1px solid rgba(0, 0, 0, 0.459);
-$bor-rad: 10px solid rgb(255, 0, 0);
+$bor-rad: 5px solid rgb(255, 166, 0);
+$bor-rad-1: 10px solid rgb(255, 0, 0);
 
 // margin and padding
-$pad-mar: 5px;
+$spacing-5: 5px;
+$spacing-20: 20px;
+
+//fuente
+$font-5: 5px;
+$font-20: 20px;
+
+//width-height
+$width: 100px;
+$width-2: 200px;
+$height: 100px;
+$height-2: 200px;
+
+//scale image
+$width-img: 100px;
+$height-img: 100px;

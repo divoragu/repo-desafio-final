@@ -1,5 +1,5 @@
 .main-grid{
-    padding: 10px;
+    padding: $spacing-5*2;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 120px 120px 120px;
@@ -8,9 +8,9 @@
     "item-4 item-5 item-6"
     "item-7 item-8 item-9"
     ;
-    grid-gap: 5px;
+    grid-gap: $spacing-5;
     box-sizing: border-box;
-    margin: 20px;
+    margin: $spacing-20;
 }
 .item1{
     grid-area: item-1;
@@ -18,22 +18,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .item2{
@@ -42,22 +46,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .item3{
@@ -66,22 +74,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .item4{
@@ -90,22 +102,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .item5{
@@ -114,22 +130,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $spacing-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .item6{
@@ -138,23 +158,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }    
         &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
-    
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;    
 }
 }
 .item7{
@@ -163,22 +186,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .item8{
@@ -187,22 +214,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .item9{
@@ -211,22 +242,26 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    border-left: $bor-rad;
+    border-radius: $spacing-5*2;
     p{
-        font-size: 22px;
+        font-size: $font-20;
         text-align: center;
     }
     div{
         img{
-            width: 125px;
-            height: 100px;
-            margin: 5px;
+            width: $width-img+25;
+            height: $height-img;
+            margin: $spacing-5;
         }
     }
     &:hover{
         transform:rotateX(2deg) ;
         background-color: $color-hover;
-        border-left: $bor-rad;
-        transition-duration: 1.2s;
+        border-left: $bor-rad-1;
+        transition-duration: 1.5s;
+        border-radius: $spacing-20;
+        box-shadow: 5px 5px;
     }
 }
 .tabla{
@@ -262,6 +297,6 @@ tr{
     }
 }
 td{
-    border: 1px solid black;
+    border: $bordesito1;
     text-align: center;
 }

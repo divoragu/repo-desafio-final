@@ -1,14 +1,14 @@
 header {
-	background-color: rgb(61, 60, 60);
+	background-color: $hefo-color;
 	color: rgb(255, 255, 255);
-	min-height: 140px;
+	min-height: $width+40;
 	div {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
-		padding: 10px;
+		padding: $spacing-5*2;
 		h1 {
-			padding-left: 10px;
+			padding-left: $spacing-5*2;
 			animation: h1animation;
 			animation-timing-function: ease;
 			animation-duration: 4s;
@@ -16,9 +16,9 @@ header {
 		}
 	}
 	img {
-		width: 80px;
-		height: 80px;
-		border-radius: 20px;
+		width: $width - 20;
+		height: $height - 20;
+		border-radius: $spacing-20;
 		animation: infinite-rotate;
 		animation-timing-function: ease;
 		animation-duration: 10s;
@@ -32,7 +32,7 @@ header {
 		flex-direction: row;
 		align-items: center;
 		list-style-type: none;
-		padding: 5px;
+		padding: $spacing-5;
 		animation: colorchange;
 		animation-timing-function: ease;
 		animation-duration: 5s;
@@ -41,7 +41,7 @@ header {
 			a {
 				text-decoration: none;
 				color: rgb(255, 255, 255);
-				font-size: 20px;
+				font-size: $font-5*4;
 				&:visited {
 					text-decoration: none;
 				}
@@ -49,8 +49,8 @@ header {
 			&:hover {
 				background-color: rgb(255, 255, 255);
 				color: black;
-				border-radius: 20px;
-				border: 2px solid rgb(0, 0, 0);
+				border-radius: $spacing-20;
+				border: $bordesito2;
 				padding: 2px;
 				transition-duration: 1s;
 			}

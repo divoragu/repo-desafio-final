@@ -38,7 +38,7 @@ $archivos:(
 }
 
 .first-var{
-    @include size(300px, 800px, 10px);
+    @include size($height*3, $width-2*4, $spacing-5*2);
     display: flex;
     justify-content: center;
     flex-direction: column;

@@ -1,3 +1,30 @@
+.raro-titulo {
+  color: #fdf909; }
+
+.raro-parraf {
+  color: #515250; }
+
+.raro-rellen {
+  color: #0a0a0a; }
+
+.raro-mas-rellen {
+  color: #990606; }
+
+.raro-titulo {
+  text-align: center; }
+
+.raro-rellen {
+  text-align: center; }
+
+.first-var {
+  height: 300px;
+  width: 800px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
 header {
   background-color: #3d3c3c;
   color: white;
@@ -288,7 +315,7 @@ footer {
 .item1 {
   grid-area: item-1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item1 p {
@@ -299,17 +326,15 @@ footer {
     height: 100px;
     margin: 5px; }
   .item1:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item2 {
   grid-area: item-2;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item2 div img {
@@ -320,17 +345,15 @@ footer {
     font-size: 22px;
     text-align: center; }
   .item2:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item3 {
   grid-area: item-3;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item3 p {
@@ -341,17 +364,15 @@ footer {
     height: 100px;
     margin: 5px; }
   .item3:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item4 {
   grid-area: item-4;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item4 p {
@@ -362,17 +383,15 @@ footer {
     height: 100px;
     margin: 5px; }
   .item4:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item5 {
   grid-area: item-5;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item5 p {
@@ -383,17 +402,15 @@ footer {
     height: 100px;
     margin: 5px; }
   .item5:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item6 {
   grid-area: item-6;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item6 p {
@@ -404,17 +421,15 @@ footer {
     height: 100px;
     margin: 5px; }
   .item6:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item7 {
   grid-area: item-7;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item7 p {
@@ -425,17 +440,15 @@ footer {
     height: 100px;
     margin: 5px; }
   .item7:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item8 {
   grid-area: item-8;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item8 p {
@@ -446,17 +459,15 @@ footer {
     height: 100px;
     margin: 5px; }
   .item8:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .item9 {
   grid-area: item-9;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row; }
   .item9 p {
@@ -467,12 +478,10 @@ footer {
     height: 100px;
     margin: 5px; }
   .item9:hover {
-    transform: skew(2deg);
-    background-color: #b6f0d8;
-    transition-duration: .5s;
-    border: 2px solid black;
-    border-radius: 20px;
-    color: blue; }
+    transform: rotateX(2deg);
+    background-color: #e2e793;
+    border-left: 10px solid red;
+    transition-duration: 1.2s; }
 
 .tabla {
   margin-bottom: 20px;
@@ -484,53 +493,25 @@ footer {
     width: 800px; }
 
 thead {
-  border: 2px solid black; }
+  border: 2px solid rgba(0, 0, 0, 0.459); }
 
 th {
-  border: 2px solid black; }
+  border: 2px solid rgba(0, 0, 0, 0.459); }
 
 tbody {
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.459);
   text-align: center; }
 
 tr {
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.459);
   text-align: center; }
   tr td:hover {
-    background-color: #b6f0d8;
+    background-color: #e2e793;
     transform: scale(1.01);
-    transition-duration: 1s;
-    border: 2px solid black; }
+    transition-duration: 1s; }
 
 td {
   border: 1px solid black;
-  text-align: center; }
-
-.raro-titulo {
-  color: #fdf909; }
-
-.raro-parraf {
-  color: #515250; }
-
-.raro-rellen {
-  color: #0a0a0a; }
-
-.raro-mas-rellen {
-  color: #990606; }
-
-.raro-titulo {
-  text-align: center; }
-
-.raro-rellen {
-  text-align: center; }
-
-.first-var {
-  height: 300px;
-  width: 800px;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   text-align: center; }
 
 @keyframes h1animation {
@@ -602,6 +583,8 @@ body {
   .nav-menu ul li a {
     font-size: 12px;
     padding: 2px; }
+  .tabla table {
+    display: none; }
   footer div nav ul {
     justify-content: space-around;
     font-size: 12px; }

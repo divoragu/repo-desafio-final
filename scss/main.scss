@@ -1,8 +1,10 @@
+@import "variable";
+@import "styles";
 @import "header-nav";
 @import "main-sect-artc";
 @import "aside-footer-contact";
-@import "products-tabla";
-@import "styles";
+@import "product-grid-table";
+
 
     @keyframes h1animation {
 	0% {
@@ -102,6 +104,9 @@ body {
 				}
 			}
 		}
+	}
+	.tabla table{
+		display: none;
 	}
 	footer {
 		div {

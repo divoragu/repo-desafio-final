@@ -233,7 +233,17 @@ body {
 			}
 		}
 	}
+	.first-var {
+		min-height: $width*3;
+		min-width: $width*8;
+		margin: $spacing-5*2;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
 	
+
 	.tabla table{
 		display: none;
 	}

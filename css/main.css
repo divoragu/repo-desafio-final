@@ -688,6 +688,14 @@ body {
     .item9 div img {
       width: 80px;
       height: 80px; }
+  .first-var {
+    min-height: 300px;
+    min-width: 800px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
   .tabla table {
     display: none; }
   footer div nav ul {

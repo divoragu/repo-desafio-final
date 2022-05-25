@@ -2,14 +2,13 @@
     padding: $spacing-5*2;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 120px 120px 120px;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
     "item-1 item-2 item-3"
     "item-4 item-5 item-6"
     "item-7 item-8 item-9"
     ;
     grid-gap: $spacing-5;
-    box-sizing: border-box;
     margin: $spacing-20;
 }
 .item1{
@@ -267,11 +266,11 @@
 .tabla{
     margin-bottom: 20px;
     padding: 10px;
-    margin-left: 250px ;
+    margin-left: 200px ;
     table{
         font-size: 20px;
         border: 2px solid black;
-        width: 800px;
+        width: 500px;
     }
 }
 

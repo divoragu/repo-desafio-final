@@ -83,16 +83,21 @@ body {
 	font-family: 'Radio Canada';
 	background-color: rgb(218, 218, 218);
 }
-@media (max-width:700px) {
+@media screen and (max-width:768px) {
 	header {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
+		min-height: $width;
 		div {
 			h1 {
-				padding-top: 5px;
-				font-size: 20px;
+				padding-top: $spacing-5;
+				font-size: $font-20;
 			}
+		}
+		img{
+			width: $width - 50;
+			height: $height - 50;
 		}
 	}
 	.nav-menu {
@@ -105,6 +110,130 @@ body {
 			}
 		}
 	}
+	.main-grid{
+		grid-template-columns: auto;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"item1"
+		"item2"
+		"item3"
+		"item4"
+		"item5"
+		"item6"
+		"item7"
+		"item8"
+		"item9"
+		;
+	}
+	.item1{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	.item2{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	.item3{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	.item4{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		} 
+	}
+	.item5{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	.item6{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	.item7{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	.item8{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	.item9{
+		justify-content: space-around;
+		p{
+			font-size: $font-5*2;
+		}
+		div{
+			img{
+				width: $width-img - 20;
+				height: $height-img - 20;
+			}
+		}
+	}
+	
 	.tabla table{
 		display: none;
 	}
